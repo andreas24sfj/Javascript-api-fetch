@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  background-color: lightskyblue;
+}
+
+#content .movie-card {
+  height: fit-content;
+  width: 300px;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px;
+}
+
+#content .movie-card img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+    margin: 4px
+}
+
+h2 {
+    margin: 4px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    width: 100vw;
+    background-color: lightskyblue;
+}
